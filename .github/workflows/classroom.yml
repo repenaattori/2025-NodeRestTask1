@@ -22,7 +22,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test1
-        command: npm test -- server.test.js
+        command: npm test -- server1
         timeout: 10
         max-score: 2
     - name: Autograding Reporter
